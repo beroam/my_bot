@@ -74,9 +74,13 @@ Visualization Manager:
           chassis:
             caster_wheel:
               {}
-          left_wheel:
+          front_left_wheel:
             {}
-          right_wheel:
+          front_right_wheel:
+            {}
+          back_left_wheel:
+            {}
+          back_right_wheel:
             {}
       Update Interval: 0
       Value: true
@@ -112,12 +116,22 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        left_wheel:
+        front_left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        right_wheel:
+        front_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        back_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        back_right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
